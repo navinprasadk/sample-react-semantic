@@ -1,10 +1,28 @@
-import React from 'react'
-import { Container } from 'semantic-ui-react'
-import '../styles/style.css'
-const JumbotronTop = () => (
-  <Container fluid id="jumbotronTop">
-    <img width="1300px " src="./client/assets/images/dry-flower-pot.jpeg"></img>
-  </Container>
+import React from 'react';
+import Search from './Search';
+import { Container, Header, Grid } from 'semantic-ui-react';
+import '../styles/style.css';
+
+const Hero = () => (
+
+<Container fluid>
+    <Header className="hero">
+    <h1 id="heroFirstHeader">NEXUS CINEMAS</h1>
+    <Search/>
+    </Header>
+</Container>
+
+// <Grid >
+// <Grid.Row>
+// <Grid.Column width={16}>
+//     <Header className="hero">
+//     <h1 id="heroFirstHeader">NEXUS CINEMAS</h1>
+//     <Search/>
+//     </Header>
+//     </Grid.Column>
+//   </Grid.Row>
+// </Grid>
+
 )
 
-export default JumbotronTop
+export default Hero

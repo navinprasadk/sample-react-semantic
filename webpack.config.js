@@ -8,7 +8,7 @@ module.exports = {
 
    devServer: {
       inline: true,
-      port: 8989
+      port: 7878
    },
 
    module: {
