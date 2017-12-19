@@ -5,9 +5,9 @@ import '../styles/style.css';
 
 const Hero = () => (
 
-<Container fluid>
+<Container fluid style={{margin:'0px',padding:'0px',border:'none'}}>
     <Header className="hero">
-    <h1 id="heroFirstHeader">NEXUS CINEMAS</h1>
+    <h1 id="heroFirstHeader" title="NEXUS  Cinemas | Feel the movie " >NEXUS CINEMAS</h1>
     <Search/>
     </Header>
 </Container>

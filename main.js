@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './client/components/App';
-import NavBar from './client/components/NavBar';
-import Hero from './client/components/Jumbotron';
+import Hero from './client/components/Hero';
 import MoviesRunningCarousel from './client/components/MoviesRunningCarousel';
-// import Advertisement from './client/components/Advertisement';
+import MenuPlusHero from './client/components/MenuPlusHero';
+
 ReactDOM.render(
   <div>
-  <NavBar/>
-  <Hero/>
+  <MenuPlusHero/>
   <MoviesRunningCarousel/>
   </div>,
   document.getElementById('reactApp')
